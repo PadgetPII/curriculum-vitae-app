@@ -7,6 +7,6 @@ new AppStack(app, "curriculum-vitae-app-production", {
   region: "us-east-1",
   stage: "production",
   branchToMerge: "master",
-  repoName: "curricullum-vitae-app",
+  repoName: "curriculum-vitae-app",
   repoOwner: "PadgetPII",
 });

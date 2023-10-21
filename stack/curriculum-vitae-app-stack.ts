@@ -53,6 +53,8 @@ export class AppStack extends cdk.Stack {
     const repo = codeBuild.Source.gitHub({
       owner: props.repoOwner,
       repo: props.repoName,
+      webhook: true,
+      webhookFilters: webhooks,
       reportBuildStatus: true,
     });
 
