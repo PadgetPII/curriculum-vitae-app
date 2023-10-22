@@ -11,7 +11,8 @@
     "build:server": "cd server && npm run build",
     "start:server": "cd server && npm run start",
     "build:stack": "cd stack && npm run build",
-    "build": "npm-run-all build:*"
+    "build": "npm-run-all build:*",
+    "start:production": "cd server && npm run build && node build/app.js "
   },
   "author": "Francis Paré",
   "license": "ISC",

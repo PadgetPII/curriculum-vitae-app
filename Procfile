@@ -1,1 +1,1 @@
-web: npm install && npm run build:server && npm run start:server
+web: npm install && npm run start:production
